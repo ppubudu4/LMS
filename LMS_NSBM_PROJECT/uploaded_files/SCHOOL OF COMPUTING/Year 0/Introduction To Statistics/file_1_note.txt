@@ -1,0 +1,14 @@
+Computer Security (Syber security )
+
+WORM =  Write once Read Many
+worm =  
+
+Adware cleaning software = adw cleaner (indian corparation)
+Randsomeware
+
+SSL = Secure Socket Layer
+HTTPS = Hyper Text Transfer Protocal Secure
+
+
+
+

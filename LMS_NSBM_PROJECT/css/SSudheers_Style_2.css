@@ -1,0 +1,228 @@
+@charset "utf-8";
+/*
+*
+*@author SSudheera
+*
+*/
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+.back{
+	background-image:url(../Imgs/bg.jpg);
+	min-height:800px;
+	height:auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	display:none;
+}
+.back2{
+	background-image:url(../Imgs/bg.jpg);
+	min-height:800px;
+	height:auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	display:none;
+}
+.row{
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	padding-bottom:30px;
+	}
+.col_1{
+	float:left;
+	width:30%;
+	height:auto;
+	}
+.col_2{
+	float:left;
+	width:40%;
+	height:auto;
+	}
+.detailsCont1,.detailsCont2{
+	width:auto;
+	height:auto;
+	background-color:rgba(216,215,215,0.8);
+	box-shadow:0px 5px 10px rgba(0,0,0,1.00);
+	}
+.detailHead1,.detailHead2{
+	width:auto;
+	background-color:rgba(255,255,255,0.9);
+	height:auto;
+	margin-top:5px;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	z-index:1;
+	}
+.detailHead1>p,.detailHead2>p{
+	text-align:left;
+	margin-top:2px;
+	margin:0px;
+	padding:5px;
+	color:rgba(25,88,157,1.00);
+	font-size:16px;
+	font-weight:bold;
+	padding-left:10px;
+	}
+.detailHead1:hover,.detailHead2:hover{
+	cursor:pointer;
+	background-color:rgba(228,228,228,0.80);
+	}
+.detailHead1:active,.detailHead2:active{
+	background-color:rgba(205,205,205,0.8)}
+#sUP1,#sUP2{
+	display:none;
+	}
+.lessonCont{
+	background-color:transparent;
+	width:auto;
+	height:auto;
+	padding:5px;
+	padding-top:74px;
+	}
+.lessonCont>a{
+	text-decoration:none;
+	}
+.lessons{
+	background-color:rgba(255,255,255,0.9);
+	min-height:50px;
+	width:auto;
+	border-radius:5px;
+	margin-bottom:7px;
+	color:rgba(0,0,0,1.00);
+	transition:0.5s;
+	box-shadow:0px 0px 10px rgba(0,0,0,1.00);
+	}
+.lessons>p{
+	text-align:center;
+	margin:0px;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:14px
+	}
+.lessons:hover{
+	background-color:rgba(60,181,76,0.9);
+	cursor:pointer;
+	color:rgba(255,255,255,1.00);
+	}
+.lessons:active{
+	background-color:rgba(49,148,62,0.90);
+	}
+@media screen and (max-width: 800px){
+	.col_1,.col_2{
+		float:none;
+		width:100%;
+		}
+	.lessonCont{
+		padding-top:10px;
+		}
+}
+.lessons>p>button{
+	min-height:50px;
+	border-radius:5px;
+	border-style:none;
+	width:100%;
+	cursor:pointer;
+	background-color:transparent;
+	font-size:14px;
+	font-family:'Square721_BT';
+	font-weight:bold;
+	margin:0px;
+	}
+#fileupload:active{
+	background-color:rgba(20,71,127,0.80);}
+#file{
+	text-decoration:none;
+	color:rgba(0,0,0,1.00);
+	transition:0.5s;
+	}
+#file:hover{
+	color:rgba(255,255,255,1.00);
+	}
+.tableUpdateProfile{
+	margin:auto;
+	padding-top:20px;
+	min-width:100%;
+	}	
+p{
+	margin:0px;
+	text-align:center;
+	margin-bottom:5px;
+	
+	}
+.tableUpdateProfile>tr>td{
+	height:30px;
+	}
+input[type="text"],input[type="password"]{
+	border-style:none;
+	border-radius:3px;
+	height:20px;
+	width:70%;
+	text-align:center;
+	padding:3px
+	}
+#updateProfileButton{
+	height:30px;
+	padding:5px;
+	border-style:none;
+	width:90px;
+	background-color:rgba(27,96,173,1.00);
+	color:rgba(255,255,255,1.00);
+	border-radius:5px;
+	transition:0.5s;
+	}
+#updateProfileButton:hover{
+	background-color:rgba(255,255,255,1.00);
+	color:rgba(20,71,127,1);
+	width:110px;
+	}
+#updatepaswdBtn{
+	height:30px;
+	padding:5px;
+	border-style:none;
+	width:110px;
+	background-color:rgba(27,96,173,1.00);
+	color:rgba(255,255,255,1.00);
+	border-radius:5px;
+	transition:0.5s;
+	}
+#updatepaswdBtn:hover{	
+	background-color:rgba(255,255,255,1.00);
+	color:rgba(20,71,127,1);
+	width:140px;
+	}	
+#updatepaswdBtn:active,#updateProfileButton:active{
+	background-color:rgba(27,96,173,1.00);
+}
+#fileupload{
+	background-color:rgba(25,88,157,0.8);
+	border:0px;
+	padding:5px;
+	color:rgba(255,255,255,1.00);
+	cursor:pointer;
+	border-radius:3px;
+	transition:0.3s ease;
+	width:75px
+	}
+#fileupload:hover{
+	width:100px;
+	}	
+.fileupinput{
+	border-style:solid;
+	}
+	
+	
+	
+	
+	
+	
+	

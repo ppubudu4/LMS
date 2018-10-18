@@ -1,0 +1,65 @@
+
+.countdownContainer{
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	/*transform: translateX(-50%) translateY(-50%);*/
+	margin:auto;
+	text-align: center;
+	padding:10px;
+	transition:0.5s;
+	border-radius:10px;
+	color:rgba(0,0,0,1.00);
+	box-shadow:0px 5px 10px rgba(255,255,255,1.00);
+	max-width:170px;
+}
+.info{
+	font-size:30px;
+	transition:0.5s;
+}
+.dis{
+	font-size:12px;}
+.info1{
+	font-size:13px;}
+.days:after,.hours:after,.minutes:after{
+	content:'';}
+@media  screen and (max-width: 500px) {
+	.info{
+	font-size: 80%;
+	}
+	.dis{
+	font-size:50%;
+	}
+	.countdownContainer{
+		width:100px;
+	}
+}
+#event1{
+	background-image:url(../Imgs/NSBM4.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-size:cover;	
+	}
+#event2{
+	background-image:url(../Imgs/NSBM5.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-size:cover;		
+	}
+#event3{
+	background-image:url(../Imgs/NSBM6.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-size:cover;	
+	}
+#event4{
+	background-image:url(../Imgs/NSBM8.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-size:cover;	
+	}
+	

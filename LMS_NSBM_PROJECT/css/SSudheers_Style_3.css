@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+.back{
+	background-image:url(../Imgs/bg.jpg);
+	min-height:702px;
+	height:auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	display:none;
+}
+.container{
+	margin:auto;
+	padding:0px;
+	background-color:transparent;
+	width:100%;
+	height:auto;
+	}
+.row{
+	margin:auto;
+	padding:0px;
+	height:auto;
+	width:100%;
+	float:none;
+	}
+.col_4{
+	float:left;
+	width:25%;
+	height:auto;
+	background-color:transparent;
+	margin:auto;
+	}
+.panel{
+	margin:auto;
+	padding-top:3px;
+	background-color:transparent;
+	width:auto;
+	height:auto;
+	}
+#years{
+	transition:0.5s;
+	opacity:0;
+	}
+.yearShow{
+	display:block;
+	}
+/*Mobile responsive col_4*/
+@media screen and (max-width: 850px){
+	.col_4{
+		float:none;
+		width:75%;
+		}
+	
+}
+.headin_1{
+	transition:0.5s;
+	margin:0px;
+	padding:5px;
+	}
+.headin_1:hover{
+	background-color:rgba(25,88,157,0.8);
+	cursor:pointer;
+	}
+#computing_y1,#computing_y2,#business_y1{
+	transition:0.5s;
+	opacity:0;
+	position:absolute;
+	width:300px;
+	}
+.fac{
+	background-color:transparent;
+	margin-bottom:3px;
+	}
+.facHeading{
+	color:rgba(255,255,255,1.00);
+	text-align:center;
+	min-height:32px;
+	background-color:rgba(0,0,0,0.8);
+	font-family:'Square721_BT';
+	padding:5px;
+	font-size:24px;
+	border-radius:10px;
+	transition:0.5s
+	}
+.facHeading:hover{
+	background-color:rgba(25,88,157,0.7);
+	cursor:pointer
+	}
+.facHeading:active{
+	background-color:rgba(16,58,104,0.70);
+	}
+.facHeading>p{
+	margin:0px;
+	padding:0px;
+	}
+.years{
+	background-color:transparent;
+	height:auto;
+	margin:0px;
+	padding-left:10px;
+	padding-right:10px;
+	display:none;
+	}
+.years>div{
+	background-color:rgba(0,0,0,0.7);
+	}
+.years>div>a{
+	text-decoration:none;
+	text-align:center;
+	color:rgba(253,253,253,1.00);
+	}
+.years>div>a>div>h4{
+	margin:0px;
+	}
+.years>div>a>div{
+	min-height:20px;
+	padding:5px;
+	font-family:'Square721_BT';
+	transition:0.5s;
+	}
+.years>div>a>div>h4>button{
+	font-family:'Square721_BT';
+	font-weight:bold;
+	font-size:18px;
+	margin:0px;
+	background-color:transparent;
+	cursor:pointer;
+	color:rgba(255,255,255,1.00);
+	width:100%;
+	border:0px;
+	height:20px;
+	border-style:none;
+	}
+.years>div>a>div:hover{
+	background-color:rgba(25,88,157,0.7)
+	}
+.years>div>a>div:active{
+	background-color:rgba(19,68,123,0.70);
+	}
+a{
+	cursor:pointer;}

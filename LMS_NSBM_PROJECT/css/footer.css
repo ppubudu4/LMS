@@ -1,0 +1,168 @@
+.footer-main{
+	background-color:rgba(0,0,0,0.9);
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+}
+
+.footer-main .footer-left,
+.footer-main .footer-center,
+.footer-main .footer-right{
+	float:left;
+	width:33.333%;
+}
+
+/* The campus logo */
+
+.footer-main h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-main h3 span{
+	color:  #5383d3;
+}
+
+.footer-main h3 span img{
+    width: 200px;
+}
+
+
+
+
+/* Footer links */
+
+.footer-main .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-main .footer-links a{
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-main .footer-name{
+	color:  #ecf0f1;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+
+.footer-main .footer-center img{
+	width: 20px;
+}
+
+
+.footer-main .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	}
+
+.footer-main .footer-center i.fa-envelope{
+	font-size: 17px;
+}
+
+.footer-main .footer-center p{
+	color: #ffffff;
+	margin:0;
+}
+
+.footer-main .footer-center p span{
+	font-weight: normal;
+	font-size:14px;
+}
+
+.footer-main .footer-center p a{
+	color:  #2980b9;
+	text-decoration: none;
+}
+
+
+.footer-main .footer-about{
+	color:  #ecf0f1;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.footer-main .footer-about span{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.footer-main .footer-icons{
+	padding-top: 25px;
+	width:160px;
+	margin:auto;
+	padding-left:5px;
+	padding-right:5px
+}
+
+.footer-main .footer-icons a{
+	cursor: pointer;
+	
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+}
+
+.footer-icons a img {
+    width: 35px;
+	transition:0.5s;
+}
+
+.footer-icons a img:hover {
+    opacity: 0.8;
+	padding-bottom:10px
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+	.footer-main{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-main .footer-left,
+	.footer-main .footer-center,
+	.footer-main .footer-right{
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-main .footer-center i{
+		margin-left: 0;
+	}
+	.footer-left-cont{
+		padding-left:0px}
+}
+.footer-left-cont{
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:10px;
+	}
+.footer-center-cont{
+	width:60%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:10px;
+	}
+.footer-right-cont{
+	padding:10px;
+}

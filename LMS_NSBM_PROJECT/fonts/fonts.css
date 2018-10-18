@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS FONTS */
+	@font-face {
+	    font-family: 'Square721_BT';
+	    src: url('Square721_BT.eot');
+	    src: local('Square721_BT'), local('Square721_BT'), url('Square721_BT.ttf') format('truetype');
+        }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('glyphicons-halflings-regular.eot');
+  src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('glyphicons-halflings-regular.woff2') format('woff2'), url('glyphicons-halflings-regular.woff') format('woff'), url('glyphicons-halflings-regular.ttf') format('truetype'), url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.icon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-log-in:before {
+  content: "\e161";
+}
+.icon-user:before {
+  content: "\e008";
+}
+.icon-log-out:before {
+  content: "\e163";
+}
+.icon-menu-down:before {
+  content: "\e259";
+}
+.icon-book:before {
+  content: "\e043";
+}
+.icon-menu-hamburger:before {
+  content: "\e236";
+}
+.icon-remove:before {
+  content: "\e014";
+}
+.icon-download:before {
+  content: "\e026";
+}
+.icon-download-alt:before {
+  content: "\e025";
+}
